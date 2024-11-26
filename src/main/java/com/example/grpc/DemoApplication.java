@@ -17,7 +17,7 @@ public class DemoApplication {
 		// SPRING BOOT SERVER
 		SpringApplication.run(DemoApplication.class, args);
 
-		// gRPC SERVER delpoy commit
+		// gRPC SERVER delpoy 
 		// Create a new server to listen on port 8585
 		Server server = ServerBuilder.forPort(8585)
 		.addService(new GreetingServiceImpl())
